@@ -1,0 +1,35 @@
+<!DOCTYPE html><html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Legal Apprentice Suite</title>
+        <base href="./">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+<body>
+
+    <h1>Legal Apprentice Suite</h1>
+    <br />
+    <h2>This set of applications integrate to create LAMPS </h2>
+    <p><a href="/legalmarker/index.html">Marker</a></p>
+    <p><a href="/legalpad/index.html">Pad</a></p>
+    <p><a href="/legalsearch/index.html">Search</a></p>
+
+    <!-- <p><a href="/legalmarker/#/case/1800023">1800023</a></p>
+    <p><a href="https://legalapprentice.azurewebsites.net/legalmarker/#/case/1800023">ABS 1800023</a></p> -->
+
+    <!-- <p><a href="~#/case/1800023">/case/#/case/1800023</a></p>
+
+    <p><a href="~/marker/#/case/1800023">marker/#/case/1800023</a></p> -->
+
+    <script type="text/javascript">
+        //  https://localhost:44360/legalmarker/#/case/case1800023
+        //this code will force all the apps to open
+        window.addEventListener("load", () => {
+            console.log("loading...")
+            //window.open("/legalmarker/index.html", "_blank");
+            //window.open("/legalpad/index.html", "_blank");
+            //window.open("/legalsearch/index.html", "_blank");
+        });
+    </script>
+</body>
+</html>
