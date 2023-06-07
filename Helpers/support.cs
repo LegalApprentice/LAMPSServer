@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace LAMPSServer.Helpers;
 
-/public class ClusterHealth
+public class ClusterHealth
 {
     public string status { get; set; }
 }
